@@ -1,0 +1,9 @@
+[package]
+name = "candle_mask_minrep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tch = { version = "0.17.0" }
+candle-core = {  version = "0.7.2", features = ["cuda"] }
+candle-nn = { version = "0.7.2", features = ["cuda"] }
